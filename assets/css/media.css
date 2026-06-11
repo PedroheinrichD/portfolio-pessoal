@@ -131,4 +131,8 @@
     .hero-desc {
         font-size: 14px;
     }
+
+    .typing-container #msg{
+        font-size: 20px;
+    }
 }

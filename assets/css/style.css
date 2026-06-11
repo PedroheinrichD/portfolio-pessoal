@@ -31,6 +31,10 @@ header {
     font-weight: 700;
 }
 
+nav{
+    display: none;
+}
+
 .purple {
     color: var(--roxo);
 }

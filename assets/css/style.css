@@ -95,9 +95,23 @@ nav{
 }
 
 .hero-slogan {
-    font-size: 13px;
+    font-size: 15px;
     font-style: italic;
     font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+#msg {
+   color: var(--roxo);
+    border-right: 1px solid rgb(219, 214, 214);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: mark 0.7s step-end infinite;
+    display: inline-block;
 }
 
 .bar {
@@ -110,4 +124,12 @@ nav{
 .hero-desc {
     line-height: 18px;
     font-size: 10px;
+}
+
+/*--------------ANIMATIONS KeyFrames--------------*/
+
+@keyframes mark {
+    50%{
+        border-right-color: transparent;
+    }
 }

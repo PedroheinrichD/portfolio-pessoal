@@ -2,7 +2,6 @@
 
     /*----------HEADER----------*/
 
-
     header {
         display: flex;
         justify-content: space-between;
@@ -74,6 +73,16 @@
         font-style: italic;
         font-weight: 400;
     }
+
+    .container-msg{
+        display: flex; 
+    }
+
+    .typing-container #msg{
+        margin-left: 6px;
+    }
+
+    
 
     .hero-desc {
         font-size: 12px;

@@ -24,3 +24,28 @@
     }
   }
   tick();
+
+
+
+  particlesJS("particles-js", {
+    particles: {
+        number: { value: 60 },
+        color: { value: "#9D69D3" },
+        opacity: { value: 0.4 },
+        size: { value: 3 },
+        move: {
+            enable: true,
+            speed: 1.5
+        },
+        line_linked: {
+            enable: true,
+            color: "#9D69D3",
+            opacity: 0.2
+        }
+    },
+    interactivity: {
+        events: {
+            onhover: { enable: true, mode: "repulse" }
+        }
+    }
+});

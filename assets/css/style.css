@@ -124,7 +124,7 @@ nav {
     font-style: italic;
     font-weight: 400;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 4px;
@@ -152,7 +152,7 @@ nav {
 
 /*----------information-container----------*/
 
-.information-container{
+.information-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,37 +161,88 @@ nav {
 
 /*----------About-me----------*/
 
-.about-me{
+.section-information {
     padding: 40px 20px;
 }
 
-.about-me-title{
+.section-title {
     gap: 14px;
-    display: flex; 
+    display: flex;
     align-items: center;
     font-weight: bolder;
     margin-bottom: 20px;
     font-size: 20px;
 }
-.icons{
+
+.icons {
     height: 40px;
     fill: #6C50E1;
 }
 
 
-.about-me-desc{
+.about-me-desc {
     color: #202020;
     font-weight: 500;
     line-height: 1.6;
 }
 
 
-.section-Bar{
+.section-Bar {
     height: 1px;
     width: 90%;
     background-color: #FBFAFC;
 }
 
+/*----------skills----------*/
+.html-icon path {
+    fill: #E44D26;
+}
+
+.css-icon path {
+    fill: #1572B6;
+}
+
+.js-icon path {
+    fill: #F7DF1E;
+}
+
+.react-icon path {
+    fill: #61DAFB;
+}
+
+.tailwind-icon path {
+    fill: #06B6D4;
+}
+
+.git-icon path {
+    fill: #F05032;
+}
+
+.github-icon path {
+    fill: #181717;
+}
+
+.icon-badge {
+    height: 20px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    gap: 20px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.skills-list li {
+    padding: 8px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid rgb(224, 222, 222);
+    border-radius: 6px;
+}
 
 
 

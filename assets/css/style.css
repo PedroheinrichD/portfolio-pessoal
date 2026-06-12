@@ -150,6 +150,35 @@ nav {
     font-size: 10px;
 }
 
+
+/*----------About-me----------*/
+
+.about-me{
+    padding: 40px 20px;
+}
+
+.about-me-title{
+    gap: 14px;
+    display: flex; 
+    align-items: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.icons{
+    height: 40px;
+    fill: #6C50E1;
+}
+
+
+.about-me-desc{
+    color: #202020;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+
+
 /*--------------ANIMATIONS KeyFrames--------------*/
 
 @keyframes mark {

@@ -1,14 +1,3 @@
-@media(min-width:365px){
-   
-.link{
-   flex: 1;
-}
-
-.code{
-    flex: 1;
-}
-}
-
 @media (min-width: 768px) {
 
     .section-Bar{

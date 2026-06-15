@@ -157,7 +157,6 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 /*----------About-me----------*/
@@ -260,6 +259,8 @@ nav {
 .project{
     display: flex;
     flex-direction: column;
+    max-width: 500px;
+    width: 100%;
     gap: 20px;
 }
 

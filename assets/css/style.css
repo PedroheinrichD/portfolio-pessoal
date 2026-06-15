@@ -262,6 +262,10 @@ nav {
     max-width: 500px;
     width: 100%;
     gap: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden; 
+    padding-bottom: 20px;
 }
 
 
@@ -272,7 +276,7 @@ nav {
     aspect-ratio: 16 / 9;
     background-size: cover;
     background-position: left top;
-    border-radius: 8px;
+    border-radius: 8px 8px 0px 0px;
 }
 
 .img-project-1 { background-image: url(pages-img/bank-account-png.png); }
@@ -281,9 +285,11 @@ nav {
 
 .information-project h3{
     color: var(--project);
+    padding: 0 10px;
 }
 .information-project p{
     color: #202020;
+    padding: 0 10px;
     font-weight: 500;
     line-height: 1.6;
 }
@@ -325,6 +331,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 6px;
 }
 
 .icon-project{

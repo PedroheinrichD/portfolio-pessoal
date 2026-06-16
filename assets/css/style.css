@@ -343,6 +343,96 @@ nav {
 }
 
 
+/*----------information-extras----------*/
+.extra-container .extra-title{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.extra-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.extra-container h4{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.extra-container ul{
+    line-height: 28px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.hobbies-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.hobbie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobbies h4{
+    margin-bottom: 20px;
+}
+
+.icon-hobbie, .icon-social-media{
+    height: 30px;
+}
+
+.useful-links{
+    display: flex;
+}
+
+.useful-links ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 20px;
+}
+.useful-links ul li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 20px;
+    opacity: 1;
+    transition: opacity 0.4s;
+}
+
+.useful-links ul li a:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    border: none;
+}
+
+.text-social-media{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-social-media span{
+    font-weight: 600;
+}
+.text-social-media small{
+    color: #504f4f;
+    line-height: 20px;
+}
+
+.linkedin{
+    fill: #0a66c2;
+}
+
+
+
+
 
 
 /*--------------ANIMATIONS KeyFrames--------------*/

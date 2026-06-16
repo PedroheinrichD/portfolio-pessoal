@@ -171,7 +171,7 @@ nav {
     align-items: center;
     font-weight: bolder;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .icons {
@@ -352,7 +352,6 @@ nav {
 .extra-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 16px;
 }
 
@@ -427,6 +426,7 @@ nav {
 }
 
 .linkedin{
+    height: 40px;
     fill: #0a66c2;
 }
 

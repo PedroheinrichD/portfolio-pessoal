@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
 
-    .section-Bar{
+    .section-Bar {
         width: 100%;
     }
 
@@ -78,11 +78,11 @@
         font-weight: 400;
     }
 
-    .container-msg{
-        display: flex; 
+    .container-msg {
+        display: flex;
     }
 
-    .typing-container #msg{
+    .typing-container #msg {
         margin-left: 6px;
     }
 
@@ -90,69 +90,85 @@
         font-size: 12px;
     }
 
-/*----------skills----------*/
+    /*----------skills----------*/
 
 
-.skills-list {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    list-style: none;
-    font-size: 14px;
-}
+    .skills-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        list-style: none;
+        font-size: 14px;
+    }
 
-.skills-list li {
-    padding: 8px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border: 1px solid rgb(224, 222, 222);
-    border-radius: 6px;
-}
+    .skills-list li {
+        padding: 8px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border: 1px solid rgb(224, 222, 222);
+        border-radius: 6px;
+    }
 
-/*----------project----------*/
+    /*----------project----------*/
 
-.bar-projects{
-    display: none;
-}
+    .bar-projects {
+        display: none;
+    }
 
- .project-container {
+    .project-container {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center; /* ← faltava isso */
-        align-items: flex-start; /* ← cards alinhados pelo topo */
+        justify-content: center;
+        align-items: flex-start;
         max-width: 100%;
     }
 
-.project {
+    .project {
         max-width: 340px;
         width: 100%;
     }
 
-.code{
-    border-radius: 8px;
-    border: 1px solid #020A1C;
-    background-color: #020A1C;
-    color: #fff;
-}
-.link{
-    border-radius: 8px;
-    border: 1px solid var(--project);
-    color: var(--project);
-}
-.links-project{
-    gap: 12px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.img-project-1{
-    height: 240px;
-}
+    .code {
+        border-radius: 8px;
+        border: 1px solid #020A1C;
+        background-color: #020A1C;
+        color: #fff;
+    }
+
+    .link {
+        border-radius: 8px;
+        border: 1px solid var(--project);
+        color: var(--project);
+    }
+
+    .links-project {
+        gap: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .img-project-1 {
+        height: 240px;
+    }
+
+    /*----------information-extras----------*/
 
 
+    .extra-container h4 {
+        font-size: 20px;
+    }
+
+    .useful-links ul li a span {
+        text-transform: capitalize;
+    }
+
+    .useful-links ul li a small{
+        text-transform: lowercase;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -198,21 +214,63 @@
         font-size: 14px;
     }
 
-    .typing-container #msg{
+    .typing-container #msg {
         font-size: 20px;
     }
 
 
-/*----------skills----------*/
-
-
-/*----------project----------*/
+    /*----------project----------*/
     .project {
         max-width: 400px;
     }
 
-    .img-project-1{
+    .img-project-1 {
         height: 280px;
     }
+
+    /*----------information-extras----------*/
+
+    .extra-container {
+        background-color: #F8F7FE;
+        padding: 50px 20px;
+        gap: 30px;
+    }
+
+    .extra-container h4 {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .hobbies-container {
+        flex-direction: column;
+        align-items: start;
+        margin-left: 14px;
+        gap: 28px;
+    }
+
+    .hobbie {
+        flex-direction: row;
+        gap: 14px;
+    }
+
+    .icon-hobbie {
+        height: 20px;
+    }
+
+
+    .linkedin {
+        height: 50px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+
+    .useful-links ul {
+        margin: 10px 0px 0px 10px;
+    }
+
+
 
 }

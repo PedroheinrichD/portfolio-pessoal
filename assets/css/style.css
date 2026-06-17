@@ -431,7 +431,53 @@ nav {
     fill: #0a66c2;
 }
 
+/*--------------Footer--------------*/
+footer {
+    background-color: #020623;
+    color: #d6d6d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    gap: 30px;
+}
 
+.footer-bar{
+    height: 1px;
+    background-color: #504f4f8a;
+}
+
+.contact{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact h2{
+    font-size: 20px;
+    color: var(--roxo);
+}
+
+.email,
+.location{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.email svg,
+.location svg{
+    fill: #d6d6d8;
+    height: 20px;
+}
+
+
+.author{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
 
 
 

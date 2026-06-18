@@ -49,3 +49,13 @@
         }
     }
 });
+
+
+let nav = document.querySelector('#navegation');
+let hamburger = document.querySelector('.hamburger');
+
+hamburger.addEventListener('click', () => {
+  nav.classList.toggle('nav-active')
+  hamburger.classList.toggle('hamburger-active')
+
+})

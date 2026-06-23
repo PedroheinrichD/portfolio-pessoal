@@ -30,6 +30,10 @@ header {
     color: #fff;
     background-color: #06081B;
     font-weight: 700;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 nav {
@@ -105,7 +109,7 @@ nav.nav-active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
     position: relative;
 }
 
@@ -206,11 +210,12 @@ nav.nav-active {
     align-items: center;
     font-weight: bolder;
     margin-bottom: 20px;
+    margin-top: 10px;
     font-size: 18px;
 }
 
 .icons {
-    height: 40px;
+    height: 30px;
     fill: #6C50E1;
 }
 

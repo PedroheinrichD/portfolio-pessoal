@@ -10,7 +10,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 16px 40px;
+        padding: 8px 40px;
     }
 
     header .name {
@@ -23,7 +23,7 @@
     }
 
     nav {
-        font-size: 14px;
+        font-size: 10px;
         display: flex;
         gap: 20px;
     }
@@ -51,11 +51,16 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        padding: 30px;
+        gap: 20px;
+        padding: 80px 60px;
     }
 
     .hero .name {
         font-size: 25px;
+    }
+
+    .img-profile-container img {
+        height: 160px;
     }
 
     .hero-texts {
@@ -174,33 +179,48 @@
         gap: 100px;
     }
 
-    .footer-bar{
+    .footer-bar {
         width: 1.3px;
         height: 120px;
         background-color: #504f4f8a;
     }
 }
 
+@media (min-width: 800px) {
+
+    /*----------HERO----------*/
+
+    .img-profile-container img {
+        height: 180px;
+    }
+}
+
 @media (min-width: 1024px) {
 
     /*----------HEADER----------*/
-    header .name {
-        font-size: 30px;
-    }
 
+    header{
+        padding: 8px 40px;
+    }
 
     .hamburger {
         display: none;
     }
 
     nav {
-        font-size: 14px;
+        font-size: 12px;
         display: flex;
         gap: 20px;
     }
 
 
     /*----------HERO----------*/
+
+    .hero {
+        gap: 40px;
+        padding: 100px 60px;
+    }
+
     .hero .name {
         font-size: 34px;
     }
@@ -230,7 +250,7 @@
 
 
     /*----------project----------*/
-     .project-container {
+    .project-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px
@@ -242,7 +262,7 @@
         height: 100%;
     }
 
-    
+
 
     /*----------information-extras----------*/
 
@@ -293,12 +313,28 @@
         gap: 100px;
     }
 
+
 }
 
 
 @media (min-width: 1400px) {
-     /*----------project----------*/
-     .project-container {
+
+    /*----------HEADER----------*/
+
+    header {
+        position: absolute;
+    }
+
+    /*--------------HERO--------------*/
+    .hero {
+        justify-content: center;
+        gap: 80px;
+        padding: 100px 60px;
+    }
+
+
+    /*----------project----------*/
+    .project-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 24px

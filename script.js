@@ -50,25 +50,40 @@ particlesJS("particles-js", {
   }
 });
 
+let nav = document.querySelector('#navegation');
+let hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelectorAll('#navegation a')
+
+function closeMenu() {
+  nav.classList.remove('nav-active')
+  hamburger.classList.remove('hamburger-active')
+}
+
+function toggleMenu() {
+  nav.classList.toggle('nav-active')
+  hamburger.classList.toggle('hamburger-active')
+}
+
 function updateMenuAccessibility() {
   if (nav.classList.contains('nav-active')) {
-   hamburger.setAttribute('aria-label', 'fechar menu')
-  } 
-  else{
+    hamburger.setAttribute('aria-label', 'fechar menu')
+  }
+  else {
     hamburger.setAttribute('aria-label', 'abrir menu')
   }
 }
 
 
-let nav = document.querySelector('#navegation');
-let hamburger = document.querySelector('.hamburger');
 
-
-hamburger.addEventListener('click', () => {
-  nav.classList.toggle('nav-active')
-  hamburger.classList.toggle('hamburger-active')
-  updateMenuAccessibility()
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+      closeMenu()
+      updateMenuAccessibility()
+  })
 })
 
-
+hamburger.addEventListener('click', () => {
+  toggleMenu()
+  updateMenuAccessibility()
+})
 

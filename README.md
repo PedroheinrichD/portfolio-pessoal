@@ -8,10 +8,13 @@ O projeto foi construído com foco em uma interface moderna, responsiva e organi
 
 # Preview
 
-![Preview](./assets/preview.png)
+<img width="689" height="791" alt="Image" src="https://github.com/user-attachments/assets/d431f281-8883-4c93-bbca-5e89ad43200d" />
 
 **Link do projeto:**
-https://pedroheinrichd.github.io/Portfolio/
+[https://pedroheinrichd.github.io/Portfolio/](https://github.com/PedroheinrichD/portfolio-pessoal)
+
+**Link do Pages:**
+https://pedroheinrichd.github.io/portfolio-pessoal/
 
 ---
 
